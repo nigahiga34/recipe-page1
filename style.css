@@ -1,0 +1,139 @@
+.girl{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.boy{
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.it{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: none;
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.shit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.body{
+    background-color: plum;
+}
+.with{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.sir{
+    color: brown;
+    padding-left: 200px;
+}
+
+.green{
+    height: 1600px;
+    width: 700px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+.oba{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.attribution{
+    text-align: center;
+}
+
+.shy img{
+    width: 610px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.content{
+    width: 610px;
+    margin: auto;
+}
+.kill{
+    color:red ;
+    width: 610px;
+    height: 100px;
+}
+ul li{
+    padding-left: 10px;
+}
+ul li + li, ol li +li{
+    margin-top: 15px;
+    padding-top: 0;
+}
+ul li::marker{
+    color: brown;
+}
+ol li{
+    padding-left: 20px
+    ;
+}
+ol li::marker{
+    color: brown;
+}
+
+td {
+    border-bottom: 2px solid plum;
+    padding-bottom: 20px;
+}
+.table{
+    display: table;
+    width: 100%;
+    border-spacing: 0;
+}
+hr{
+    width: 610px;
+}
+.colorthing{
+    background-color: plum;
+    height: 150px;
+    border-radius: 10px;
+    width: 610px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+ @media screen and (max-width: 500px){
+    body{
+        background-color: white;
+    }
+    .green{
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        width: 100vh;
+    }
+}
+ @media screen and (max-width: 390px){
+    *{
+        max-width: 390px;
+        margin: 0;
+        padding: 0;
+    }
+    .body{
+        max-width: 390px;
+        background-color: white;
+    }
+    .green{
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .green img{
+        border-radius: 0;
+    }
+ }
